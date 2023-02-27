@@ -19,7 +19,7 @@ int userNumber3 = int.Parse(Console.ReadLine() ?? "");
 
 int max = userNumber1;
 
-if(userNumber2 > userNumber1 && userNumber2 > userNumber3)
+if(userNumber2 > userNumber1 && userNumber2 >= userNumber3)
 {
     max = userNumber2;
 }
